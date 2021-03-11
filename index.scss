@@ -1,0 +1,15 @@
+@import "../bootstrap/scss/bootstrap";
+$hei : 300px;
+.row {
+    background-color: rebeccapurple;
+}
+.head {
+    background-color: $success;
+    height: $hei;
+}
+.nav {
+    justify-self: end;
+    a {
+        color: #000;
+    }
+}
